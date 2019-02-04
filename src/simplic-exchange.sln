@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Exchange", "Simplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Exchange.Service", "Simplic.Exchange.Service\Simplic.Exchange.Service.csproj", "{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Exchange.Data.DB", "Simplic.Exchange.Data.DB\Simplic.Exchange.Data.DB.csproj", "{521FE4E9-ACBC-4357-BD77-921F478CC727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521FE4E9-ACBC-4357-BD77-921F478CC727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521FE4E9-ACBC-4357-BD77-921F478CC727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521FE4E9-ACBC-4357-BD77-921F478CC727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521FE4E9-ACBC-4357-BD77-921F478CC727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
