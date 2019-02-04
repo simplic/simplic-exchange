@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Exchange", "Simplic.Exchange\Simplic.Exchange.csproj", "{4A6E4DF3-2CED-4043-92A4-9C2AD6A9B1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.Exchange.Service", "Simplic.Exchange.Service\Simplic.Exchange.Service.csproj", "{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A6E4DF3-2CED-4043-92A4-9C2AD6A9B1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6E4DF3-2CED-4043-92A4-9C2AD6A9B1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6E4DF3-2CED-4043-92A4-9C2AD6A9B1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6E4DF3-2CED-4043-92A4-9C2AD6A9B1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020D4FBB-6CAB-4F88-9595-A922FCD27EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {730344A4-B64D-4934-BB66-9F2B238A158F}
+	EndGlobalSection
+EndGlobal
