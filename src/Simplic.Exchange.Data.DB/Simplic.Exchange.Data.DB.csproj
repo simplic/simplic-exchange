@@ -62,8 +62,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CredentialRepository.cs" />
-    <Compile Include="ObjectRepository.cs" />
+    <Compile Include="ExchangeCredentialRepository.cs" />
+    <Compile Include="ExchangeObjectRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,7 @@
     /// <summary>
     /// Object service
     /// </summary>
-    public interface IObjectService : IObjectRepository
+    public interface IExchangeObjectService : IExchangeObjectRepository
     {
     }
 }

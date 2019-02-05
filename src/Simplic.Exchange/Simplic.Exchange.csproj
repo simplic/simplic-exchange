@@ -57,12 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enum\ObjectStatus.cs" />
+    <Compile Include="Interface\IExchangeCredentialEncryption.cs" />
+    <Compile Include="Interface\IExchangeServiceBuilder.cs" />
     <Compile Include="Model\ExchangeObject.cs" />
     <Compile Include="Model\ExchangeCredential.cs" />
-    <Compile Include="Interface\ICredentialRepository.cs" />
-    <Compile Include="Interface\ICredentialService.cs" />
-    <Compile Include="Interface\IObjectRepository.cs" />
-    <Compile Include="Interface\IObjectService.cs" />
+    <Compile Include="Interface\IExchangeCredentiaRepository.cs" />
+    <Compile Include="Interface\IExchangeCredentialService.cs" />
+    <Compile Include="Interface\IExchangeObjectRepository.cs" />
+    <Compile Include="Interface\IExchangeObjectService.cs" />
     <Compile Include="Model\ExchangeExtendedProperty.cs" />
     <Compile Include="Interface\IExchangeIdService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

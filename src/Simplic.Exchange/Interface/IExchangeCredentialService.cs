@@ -3,7 +3,8 @@
     /// <summary>
     /// Credential service
     /// </summary>
-    public interface ICredentialService : ICredentialRepository
+    public interface IExchangeCredentialService : IExchangeCredentiaRepository
     {
+
     }
 }

@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExchangeIdService.cs" />
+    <Compile Include="ExchangeCredentialService.cs" />
+    <Compile Include="ExchangeObjectService.cs" />
+    <Compile Include="ExchangeServiceBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

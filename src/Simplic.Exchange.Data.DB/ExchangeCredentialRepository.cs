@@ -3,12 +3,12 @@ using Simplic.Data.Sql;
 using Simplic.Sql;
 using System;
 
-namespace Simplic.Exchange.Data.DB
+namespace Simplic.Exchange
 {
     /// <summary>
-    /// Object repository
+    /// Credential repository
     /// </summary>
-    public class ObjectRepository : SqlRepositoryBase<long, ExchangeObject>, IObjectRepository
+    public class ExchangeCredentialRepository : SqlRepositoryBase<long, ExchangeCredential>, IExchangeCredentiaRepository
     {
         /// <summary>
         /// Initialize repository
@@ -16,7 +16,7 @@ namespace Simplic.Exchange.Data.DB
         /// <param name="sqlService"></param>
         /// <param name="sqlColumnService"></param>
         /// <param name="cacheService"></param>
-        public ObjectRepository(ISqlService sqlService, ISqlColumnService sqlColumnService, ICacheService cacheService) : base(sqlService, sqlColumnService, cacheService)
+        public ExchangeCredentialRepository(ISqlService sqlService, ISqlColumnService sqlColumnService, ICacheService cacheService) : base(sqlService, sqlColumnService, cacheService)
         {
         }
 
@@ -25,7 +25,7 @@ namespace Simplic.Exchange.Data.DB
         /// </summary>
         /// <param name="obj">Object instance</param>
         /// <returns>Id</returns>
-        public override long GetId(ExchangeObject obj) => obj.Ident;
+        public override long GetId(ExchangeCredential obj) => obj.Ident;
 
         /// <summary>
         /// Gets the primary key column name
